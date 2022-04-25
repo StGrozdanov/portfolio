@@ -7,9 +7,9 @@ export default function Header() {
             <header>
                 <Navigation />
                 <article>
-                    <h2>THE RELIABLE <br /><span>DEVELOPER</span> <br />FOR YOUR PROJECTS</h2>
-                    <h3>WELCOME TO MY PORTFOLIO</h3>
-                    <p>Together we build the foundations of tommorow</p>
+                    <h2 className='bounceIn'>THE RELIABLE <br /><span>DEVELOPER</span> <br />FOR YOUR PROJECTS</h2>
+                    <h3 className='bounceIn'>WELCOME TO MY PORTFOLIO</h3>
+                    <p className='bounceIn'>Together we build the foundations of tommorow</p>
                 </article>
             </header>
         </>
