@@ -12,7 +12,6 @@ header article {
     transform: translate(-50%, -50%);
     color: white;
     border: 0px solid black;
-    width: 50%;
     height: 64%;
     padding: 50px;
     text-align: center;
@@ -48,42 +47,86 @@ header article p {
     --fa-animation-duration: 2s;
 }
 
-.bounceIn {
-    animation-name: bounceIn;
-    animation-duration: .75s;
-    animation-fill-mode: both;
+@media all and (min-width: 1700px) {
+    header article {
+        top: 50%;
+    }
+
+    header article h2 {
+        font-size: 70px;
+    }
+
+    header article h3 {
+        font-size: 50px;
+    }
+
+    header article p {
+        font-size: 38px;
+    }
+
+    .fa-angles-down {
+        font-size: 100px;
+    }
 }
 
-@keyframes bounceIn {
-    0%, 100%, 20%, 40%, 60%, 80% {
-        -webkit-transition-timing-function: cubic-bezier(0.215,.61,.355,1);
-        transition-timing-function: cubic-bezier(0.215,.61,.355,1);
+@media all and (max-width: 1100px) {
+    header article {
+        min-width: 70%;
     }
-    0% {
-        opacity: 0;
-        -webkit-transform: scale3d(.3,.3,.3);
-        transform: scale3d(.3,.3,.3);
+
+    header article h2 {
+        font-size: 32px;
     }
-    20% {
-        -webkit-transform: scale3d(1.1,1.1,1.1);
-        transform: scale3d(1.1,1.1,1.1);
+
+    header article h3 {
+        font-size: 25px;
     }
-    40% {
-        -webkit-transform: scale3d(.9,.9,.9);
-        transform: scale3d(.9,.9,.9);
+
+    header article p {
+        font-size: 20px;
     }
-    60% {
-        opacity: 1;
-        -webkit-transform: scale3d(1.03,1.03,1.03);
-        transform: scale3d(1.03,1.03,1.03);
+
+    .fa-angles-down {
+        font-size: 50px;
     }
-    80% {
-        -webkit-transform: scale3d(.97,.97,.97);
-        transform: scale3d(.97,.97,.97);
+}
+
+@media all and (max-width: 840px) {
+    header article h2 {
+        font-size: 28px;
     }
-    100% {
-        opacity: 1;
-        -webkit-transform: scale3d(1,1,1);
-        transform: scale3d(1,1,1);
+
+    header article h3 {
+        font-size: 25px;
     }
-  }
+
+    header article p {
+        font-size: 20px;
+    }
+
+    .fa-angles-down {
+        font-size: 50px;
+    }
+}
+
+@media all and (max-width: 620px) {
+    header article {
+        height: 52%;
+    }
+
+    header article h2 {
+        font-size: 18px;
+    }
+
+    header article h3 {
+        font-size: 15px;
+    }
+
+    header article p {
+        font-size: 13px;
+    }
+
+    .fa-angles-down {
+        font-size: 30px;
+    }
+}
