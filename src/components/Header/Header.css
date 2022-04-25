@@ -1,0 +1,10 @@
+header {
+    background-image: url(../../../public/assets/images/header.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+h2 {
+    margin-top: 0;
+}

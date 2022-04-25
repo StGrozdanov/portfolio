@@ -1,7 +1,11 @@
+import Header from "./components/Header/Header"
 
 function App() {
   return (
-    <h1>Welcome to my portfolio</h1>
+    <>
+      <Header />
+      <h1 style={{height: '100vh'}}>Hello</h1>
+    </>
   );
 }
 
