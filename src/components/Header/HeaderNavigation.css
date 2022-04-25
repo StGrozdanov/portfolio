@@ -35,7 +35,7 @@ nav {
 }
 
 .active {
-    background-color: #ffa100;
+    background-color: #ffa100c4;
     border-bottom: 10px solid #e49102;
 }
 

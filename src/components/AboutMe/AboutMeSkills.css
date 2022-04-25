@@ -1,0 +1,9 @@
+.about-me-skills-section {
+    display: flex;
+    justify-content: space-evenly;
+    background: url(../../../public/assets/images/services-bg.jpg) no-repeat scroll center bottom / cover;
+    padding-top: 200px;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+    overflow: hidden;
+}

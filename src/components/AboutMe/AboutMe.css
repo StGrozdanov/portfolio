@@ -1,0 +1,48 @@
+.about-me-section {
+    display: flex;
+    height: 25vh;
+    max-height: 25vh;
+    margin-bottom: 119px;
+}
+
+.about-me-article {
+    padding: 20px 15px 20px 140px;
+    line-height: 1.5;
+}
+
+.about-me-article-heading {
+    text-align: center;
+    font-size: 30px;
+}
+
+.about-me-article-heading::before {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 2.5px;
+    position: absolute;
+    width: 21%;
+    left: 10.8%;
+    bottom: -14%;
+}
+
+.about-me-article-heading::after {
+    background: #ffa100 none repeat scroll 0 0;
+    content: "";
+    height: 2.5px;
+    position: absolute;
+    width: 21%;
+    right: 48%;
+    bottom: -14%;
+}
+
+.about-me-article-story {
+    text-align: left;
+}
+
+.about-me-picture-container {
+    padding-right: 140px;
+}
+
+.about-me-article p {
+    margin: 12px;
+}
