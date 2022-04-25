@@ -40,6 +40,14 @@ header article p {
     animation-delay: 0.6s;
 }
 
+.fa-angles-down {
+    font-size: 50px;
+    padding-bottom: 50px;
+    color: orange;
+    --fa-animation-delay: 1s;
+    --fa-animation-duration: 2s;
+}
+
 .bounceIn {
     animation-name: bounceIn;
     animation-duration: .75s;
