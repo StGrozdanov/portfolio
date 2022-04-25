@@ -1,3 +1,7 @@
+nav {
+    height: 30%;
+}
+
 .nav-ul {
     list-style: none;
     display: flex;
@@ -10,7 +14,6 @@
 
 .nav-ul li {
     margin-top: 40px;
-    position: -webkit-sticky; /* for Safari */
 }
 
 .nav-ul li:last-child {
@@ -29,4 +32,9 @@
     background-color: #ffa100;
     border-bottom: 10px solid #e49102;
     transition: all 0.35s ease 0s;
+}
+
+.active {
+    background-color: #ffa100;
+    border-bottom: 10px solid #e49102;
 }
