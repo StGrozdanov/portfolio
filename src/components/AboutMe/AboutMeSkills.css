@@ -5,3 +5,9 @@
     justify-content: space-around;
     height: 120vh;
 }
+
+@media all and (max-width: 820px) {
+    .about-me-skills-section {
+        flex-direction: column;
+    }
+}
