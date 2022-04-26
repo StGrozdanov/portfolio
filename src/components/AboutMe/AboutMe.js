@@ -3,7 +3,7 @@ import './AboutMe.css'
 export default function AboutMe() {
     return (
         <section className='about-me-section'>
-            <article className='about-me-article'>
+            <article className='about-me-article fadeInDown'>
                 <h2 className='about-me-article-heading'>About Me</h2>
                 <p>I am a full-stack developer, mostly experienced in Spring and React</p>
                 <p className='about-me-article-story'>
@@ -14,7 +14,7 @@ export default function AboutMe() {
                 </p>
             </article>
             <div className='about-me-picture-container'>
-                <img className="about-img" src="assets/images/coding-science.jpg" />
+                <img className="about-img fadeInRight" src="assets/images/coding-science.jpg" />
             </div>
         </section>
     );
