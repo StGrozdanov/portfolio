@@ -1,22 +1,32 @@
 import { v4 as uuid } from 'uuid';
 import './AboutMeSkillsCard.css';
 
-export default function AboutMeSkillsCard() {
+export default function AboutMeSkillsCard({ cardNumber, cardColor, icon, heading, innerHeading, technologies }) {
+    let [firstWord, secondWord] = heading.split(' ');
+    const rotationLeft = 'rotateInDownLeft';
+    const rotationRight = 'rotateInDownRight';
+
     return (
-        <article className='skills-card'>
+        <article className={
+            cardNumber > 2 
+                        ? rotationRight + ' skills-card'
+                        : rotationLeft + ' skills-card'
+                        }
+        >
             <div className='skills-card-icon-container'>
-                <i className='skills-card-icon'></i>
+                <i className={icon}></i>
             </div>
-            <header className='skills-card-header'>
-                <h2 className='skills-card-heading'>Some Heading</h2>
+            <header className={'skills-card-header ' + cardColor }>
+                <h2 className='skills-card-heading'>
+                    {firstWord} <br /> {secondWord}
+                </h2>
             </header>
             <main className='skills-card-body'>
-                <strong>Some inner heading</strong>
-                <p>All technologies</p>
-                <p>All technologies</p>
-                <p>All technologies</p>
-                <p>All technologies</p>
-                <div className='skills-card-footer'></div>
+                <strong>{innerHeading}</strong>
+                <ul className='skills-card-ul'>
+                    {technologies.map(technology => <li key={uuid()}>{technology}</li>)}
+                </ul>
+                <div className={'skills-card-footer ' + cardColor }></div>
             </main>
         </article>
     );

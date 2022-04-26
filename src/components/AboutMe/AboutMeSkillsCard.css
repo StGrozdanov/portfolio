@@ -1,5 +1,6 @@
 .skills-card {
-    width: 250px;
+    width: 280px;
+    min-width: 250px;
 }
 
 .skills-card-icon-container {
@@ -13,19 +14,19 @@
     width: 100px;
     margin: 0 auto;
     position: relative;
-    top: 36px;
+    top: 45px;
     left: 20px;
     z-index: 1;
 }
 
 .skills-card-header {
-    background: #3ec441;
     color: #fff;
     padding: 50px 0 50px;
     text-align: center;
     overflow: hidden;
     position: relative;
     max-height: 180px;
+    font-size: 18px;
 }
 
 .skills-card-header::after {
@@ -33,40 +34,84 @@
     content: "";
     width: 100%;
     height: 40%;
-    background: #08ac0d;
     left: 0;
     top: -20px;
     transform: skewY(171.5deg);
 }
 
 .skills-card-body {
-    background: #fff none repeat scroll 0 0;
-    padding: 20px 20px 60px;
+    background: none 0px 0px repeat scroll rgb(255, 255, 255);
     position: relative;
+    text-align: center;
+    height: 350px;
     overflow: hidden;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.skills-card-ul {
+    max-height: 250px;
+    overflow-y: auto;
+    list-style: none;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.skills-card-ul::-webkit-scrollbar {
+    width: 5px;
+}
+
+.skills-card-ul::-webkit-scrollbar-track {
+    background: whitesmoke;
+}
+
+.skills-card-ul::-webkit-scrollbar-thumb {
+    background: #ff8500;
+}
+
+.skills-card-ul li {
     text-align: center;
 }
 
-.skills-card-footer {
-    background: #fff none repeat scroll 0 0;
-    float: left;
-    left: 0;
-    overflow: hidden;
-    padding: 10px;
-    position: absolute;
-    width: 101%;
-    height: 100%;
-    z-index: 1;
-}
-
 .skills-card-footer::after {
-    background: #08ac0d none repeat scroll 0 0;
     content: "";
     height: 60px;
-    bottom: 0;
+    bottom: 0px;
     position: absolute;
-    right: 0;
-    top: 15px;
+    right: 0px;
+    top: 303px;
     transform: skewY(-5.5deg);
     width: 100%;
+}
+
+.greenCard {
+    background: #3ec441;
+}
+
+.greenCard::after {
+    background: #08ac0d;
+}
+
+.orangeCard {
+    background: #ff8500;
+}
+
+.orangeCard::after {
+    background: #da7104;
+}
+
+.blueCard {
+    background: #0195ff
+}
+
+.blueCard::after {
+    background: #0482d9;
+}
+
+.bordoCard {
+    background: #ff6100;
+}
+
+.bordoCard::after {
+    background: #cf5105;
 }
