@@ -1,7 +1,15 @@
 import { v4 as uuid } from 'uuid';
 import './AboutMeSkillsCard.css';
 
-export default function AboutMeSkillsCard({ cardNumber, cardColor, icon, heading, innerHeading, technologies }) {
+export default function AboutMeSkillsCard({ 
+    cardNumber, 
+    cardColor, 
+    icon, 
+    heading, 
+    innerHeading, 
+    technologies, 
+    animationDelay }) {
+    
     let [firstWord, secondWord] = heading.split(' ');
     const rotationLeft = 'rotateInDownLeft';
     const rotationRight = 'rotateInDownRight';
@@ -9,8 +17,8 @@ export default function AboutMeSkillsCard({ cardNumber, cardColor, icon, heading
     return (
         <article className={
             cardNumber > 2 
-                        ? rotationRight + ' skills-card'
-                        : rotationLeft + ' skills-card'
+                        ? rotationRight + ' skills-card ' + 'animation-delay:' + animationDelay
+                        : rotationLeft + ' skills-card ' + 'animation-delay:' + animationDelay
                         }
         >
             <div className='skills-card-icon-container'>

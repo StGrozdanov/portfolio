@@ -6,7 +6,8 @@ export const projectsCard = {
     icon: 'fa fa-rocket',
     heading: 'MY PROJECTS',
     innerHeading: 'Used Technology Stack',
-    technologies: personalQualities.projects
+    technologies: personalQualities.projects,
+    animationDelay: '1s',
 }
 
 export const experienceCard = {
@@ -15,7 +16,8 @@ export const experienceCard = {
     icon: 'fa fa-code',
     heading: 'GAINED EXPERIENCE',
     innerHeading: 'SoftUni 09.2020-08.2022',
-    technologies: personalQualities.softuni
+    technologies: personalQualities.softuni,
+    animationDelay: '2s',
 }
 
 export const softSkillsCard = {
@@ -24,7 +26,8 @@ export const softSkillsCard = {
     icon: 'fa fa-users',
     heading: 'SOFT SKILLS',
     innerHeading: 'Sports 2009-2020 and Work experience 2016-2022',
-    technologies: personalQualities.softSkills
+    technologies: personalQualities.softSkills,
+    animationDelay: '3s',
 }
 
 export const hobbiesCard = {
@@ -33,5 +36,6 @@ export const hobbiesCard = {
     icon: 'fa fa-heart',
     heading: 'MY HOBBIES',
     innerHeading: 'Favourite things to do',
-    technologies: personalQualities.hobbies
+    technologies: personalQualities.hobbies,
+    animationDelay: '4s',
 }
