@@ -4,7 +4,7 @@ import Navigation from "./HeaderNavigation";
 export default function Header() {
     return (
         <>
-            <header>
+            <header className='main-header'>
                 <Navigation />
                 <article>
                     <h2 className='bounceIn'>THE RELIABLE <br /><span>DEVELOPER</span> <br />FOR YOUR PROJECTS</h2>
