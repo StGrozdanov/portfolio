@@ -92,3 +92,83 @@
     transition: all 0.45s ease 0s;
     text-decoration: underline;
 }
+
+@media all and (min-width: 1700px) {
+    .month {
+        font-size: 30px;
+    }
+
+    .year {
+        font-size: 30px;
+    }
+
+    .project-article-body-description {
+        font-size: 24px;
+    }
+
+    .project-article-body-heading {
+        font-size: 22.5px;
+    }
+
+    .project-article-more-button {
+        font-size: 24px;
+    }
+
+    .project-article-image-container {
+        height: 420px
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .day {
+        font-size: 30px;
+    }
+
+    .month {
+        font-size: 16px;
+    }
+
+    .year {
+        font-size: 16px;
+    }
+
+    .project-article-body-heading {
+        font-size: 14px;
+    }
+
+    .project-article-more-button {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 950px) {
+    .project-article-body-heading {
+        font-size: 14px;
+        margin-top: 40px;
+    }
+}
+
+@media all and (max-width: 820px) {
+    .project-article-body-heading {
+        font-size: 16px;
+    }
+
+    .project-article-image-container {
+        width: 60%;
+        height: 280px;
+        margin: 60px auto;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .project-article-image-container {
+        width: 60%;
+        height: 220px;
+    }
+}
+
+@media all and (max-width: 380px) {
+    .project-article-image-container {
+        width: 80%;
+    }
+}
