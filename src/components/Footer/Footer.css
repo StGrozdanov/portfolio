@@ -66,6 +66,27 @@
     top: 12%;
 }
 
+.social-links a {
+    transition: all 0.75s ease 0.0s;
+}
+
+.linkedIn a:hover {
+    background: cornflowerblue;
+}
+
+.facebook a:hover {
+    background: rgba(7, 115, 216, 0.778);
+
+}
+
+.github a:hover {
+    background: dimgray;
+}
+
+.email a:hover {
+    background: sandybrown;
+}
+
 @media all and (min-width: 1800px) {
     .site-footer .social-links a {
         font-size: 45px;
