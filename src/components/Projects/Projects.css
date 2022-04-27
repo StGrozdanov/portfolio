@@ -11,9 +11,9 @@
     background: #333 none repeat scroll 0 0;
     content: "";
     height: 40%;
-    left: -8px;
+    left: 10px;
     position: absolute;
-    top: -195px;
+    top: -205px;
     transform: skewX(110deg);
     width: 100%;
 }
@@ -22,6 +22,10 @@
     text-align: center;
     padding-bottom: 70px;
     position: relative;
+}
+
+.projects-title h2 {
+    font-size: 30px;
 }
 
 .project-cards-section {

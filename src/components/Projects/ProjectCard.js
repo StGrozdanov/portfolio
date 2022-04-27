@@ -3,6 +3,10 @@ import MobileApp from './ProjectMobileApp';
 import Portfolio from './ProjectPortfolio';
 import RecipeBook from './ProjectRecipeBook';
 
+const fadeUp = "fadeInUp";
+const bounce = "bounceIn";
+let description = [<RecipeBook />, <Portfolio />, <MobileApp />];
+
 function ProjectCard({
     cardNumber,
     coverImage,
@@ -12,14 +16,10 @@ function ProjectCard({
     projectName,
     more
 }) {
-
-    const fadeUp = "fadeInUp";
-    const bounce = "bounceIn";
-    let description = [<RecipeBook />, <Portfolio />, <MobileApp />];
     let descriptionValue = cardNumber - 1;
 
     return (
-        <article className={cardNumber % 2 !== 0 ? bounce + ' project-article' : fadeUp + ' project-article'}>
+        <article className={cardNumber % 2 !== 0 ? fadeUp + ' project-article' : bounce + ' project-article'}>
             <div className="project-article-image-container">
                 <img className='project-article-image' src={coverImage} />
             </div>

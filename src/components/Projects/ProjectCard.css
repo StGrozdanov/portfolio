@@ -88,7 +88,7 @@
 
 .here-link:hover {
     color: darkcyan;
-    font-weight: 500;
-    transition: all 0.25s ease 0s;
+    font-weight: 400;
+    transition: all 0.45s ease 0s;
     text-decoration: underline;
 }
