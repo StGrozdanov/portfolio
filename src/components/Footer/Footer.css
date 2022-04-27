@@ -65,3 +65,42 @@
     position: absolute;
     top: 12%;
 }
+
+@media all and (min-width: 1800px) {
+    .site-footer .social-links a {
+        font-size: 45px;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        width: 80px;
+    }
+
+    .site-footer-right-article {
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width: 770px) {
+    .footer-title {
+        position: unset;
+    }
+
+    .site-footer-life-rules {
+        line-height: 1.6;
+        margin: 0;
+    }
+
+    .site-footer-left-article {
+        width: 100%;
+    }
+
+    .site-footer-right-article {
+        position: unset;
+        margin-top: 50px;
+    }
+
+    .site-footer .social-links {
+        margin: 0;
+        padding: 0;
+    }
+}
