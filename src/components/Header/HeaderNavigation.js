@@ -2,7 +2,7 @@ import './HeaderNavigation.css';
 
 export default function Navigation() {
     return (
-            <nav>
+            <nav className='header-navigation'>
                 <ul className='nav-ul'>
                     <li>
                         <a className='active' href="#">Introduction</a>
