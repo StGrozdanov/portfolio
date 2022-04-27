@@ -82,3 +82,94 @@
     display: flex;
     margin-bottom: 10px;
 }
+
+@media all and (min-width: 1800px) {
+    .contact-section {
+        font-size: 25px;
+    }
+    .contact-section-header h2 {
+        font-size: 45px;
+    }
+    
+    .contact-section input[type="text"], input[type="email"] {
+        font-size: 25px;
+        width: 600px;
+    }
+    
+    .contact-section textarea {
+        font-size: 25px;
+    }
+    
+    .contact-button {
+        font-size: 25px;
+        width: 250px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .contact-section {
+        font-size: 16px;
+    }
+    .contact-section-header h2 {
+        font-size: 25px;
+    }
+    
+    .contact-section input[type="text"], input[type="email"] {
+        font-size: 15px;
+    }
+    
+    .contact-section textarea {
+        font-size: 15px;
+    }
+    
+    .contact-button {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 680px) {
+    .contact-section input[type="text"], input[type="email"] {
+        font-size: 15px;
+        width: 32vw;
+    }
+    
+    .contact-section textarea {
+        font-size: 15px;
+    }
+    
+    .contact-button {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .contact-section-credentials-article {
+        flex-direction: column;
+        margin: 5px 0;
+    }
+
+    .contact-section main form {
+        width: 100%;
+        margin: 0 10px;
+    }
+
+    .contact-section input[type="text"], input[type="email"] {
+        font-size: 14px;
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    .contact-section textarea {
+        font-size: 14px;
+        margin: 0;
+    }
+    
+    .contact-button {
+        font-size: 14px;
+        width: 135px;
+    }
+
+    .contact-section-header p {
+        margin: 0 5px;
+    }
+}
