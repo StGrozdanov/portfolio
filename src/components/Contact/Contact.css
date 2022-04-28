@@ -83,6 +83,11 @@
     margin-bottom: 10px;
 }
 
+.contact-section-send-success {
+    color: #3ec441;
+    transition: all 0.65s ease 0s;;
+}
+
 @media all and (min-width: 1800px) {
     .contact-section {
         font-size: 25px;
