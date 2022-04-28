@@ -1,4 +1,5 @@
 import './Footer.css';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 export default function Footer() {
     return (
@@ -6,28 +7,36 @@ export default function Footer() {
             <article className='site-footer-left-article'>
                 <ul className="social-links">
                     <li className='facebook'>
-                        <a className="fadeInUp" href="#" style={{ animationDelay: 0.2 + 's' }}>
-                            <i className="fa fa-facebook"></i>
-                        </a>
+                        <AnimationOnScroll animateIn='fadeInUp' delay={200}>
+                            <a href="#">
+                                <i className="fa fa-facebook"></i>
+                            </a>
+                        </AnimationOnScroll>
                     </li>
                     <li className='linkedIn'>
-                        <a className="fadeInUp" href="https://www.linkedin.com/in/stoyan-grozdanov-533b4b1bb" target="blank" style={{ animationDelay: 0.3 + 's' }}>
-                            <i className="fa fa-linkedin"></i>
-                        </a>
+                        <AnimationOnScroll animateIn='fadeInUp' delay={300}>
+                            <a href="https://www.linkedin.com/in/stoyan-grozdanov-533b4b1bb" target="blank">
+                                <i className="fa fa-linkedin"></i>
+                            </a>
+                        </AnimationOnScroll>
                     </li>
                     <li className='github'>
-                        <a className="fadeInUp" href="https://github.com/StGrozdanov" target="blank" style={{ animationDelay: 0.4 + 's' }}>
-                            <i className="fa fa-github"></i>
-                        </a>
+                        <AnimationOnScroll animateIn='fadeInUp' delay={400}>
+                            <a href="https://github.com/StGrozdanov" target="blank">
+                                <i className="fa fa-github"></i>
+                            </a>
+                        </AnimationOnScroll>
                     </li>
                     <li className='email'>
-                        <a className="fadeInUp" href="mailto:st.grozdanov@abv.bg" style={{ animationDelay: 0.5 + 's' }}>
-                            <i className="fa fa-envelope"></i>
-                        </a>
+                        <AnimationOnScroll animateIn='fadeInUp' delay={500}>
+                            <a href="mailto:st.grozdanov@abv.bg">
+                                <i className="fa fa-envelope"></i>
+                            </a>
+                        </AnimationOnScroll>
                     </li>
                 </ul>
             </article>
-            <article className="bounceIn site-footer-right-article" style={{ animationDelay: 0.2 + 's', animationDuration: 0.75 + 's' }}>
+            <article className="site-footer-right-article">
                 <h3 className="footer-title">Stoyan Grozdanov</h3>
                 <ul className='site-footer-life-rules'>
                     <li>Live</li>

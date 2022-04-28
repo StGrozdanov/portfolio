@@ -1,5 +1,5 @@
 import './index.css';
-import './animations.css'
+import './animate.css'
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
