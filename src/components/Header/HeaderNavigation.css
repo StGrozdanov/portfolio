@@ -25,6 +25,7 @@
     background-color: #ffa100;
     border-bottom: 2px solid #e49102;
     transition: all 0.75s ease 0s;
+    cursor: pointer;
 }
 
 .active {

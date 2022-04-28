@@ -3,8 +3,7 @@ import Navigation from "./HeaderNavigation";
 
 export default function Header() {
     return (
-        <>
-            <header className='main-header'>
+            <header id='main' className='main-header'>
                 <Navigation />
                 <article>
                     <h2 className='bounceIn'>THE RELIABLE <br /><span>DEVELOPER</span> <br />FOR YOUR PROJECTS</h2>
@@ -13,6 +12,5 @@ export default function Header() {
                     <i className="fa-solid fa-angles-down fa-beat-fade"></i>
                 </article>
             </header>
-        </>
     );
 }

@@ -4,7 +4,7 @@ import { cookBookProjectCard, mobileAppProjectCard, portfolioProjectCard } from 
 
 export default function Projects() {
     return (
-        <section className="projects">
+        <section id='my-projects' className="projects">
             <header className="projects-title">
                 <h2>My Projects</h2>
             </header>
