@@ -15,7 +15,7 @@ export const portfolioProjectCard = {
     month: 'April',
     year: 2022,
     projectName: 'Personal Portfolio',
-    more: '#'
+    more: 'https://st-grozdanov-portfolio.web.app'
 }
 
 export const mobileAppProjectCard = {
