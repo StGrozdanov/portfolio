@@ -50,6 +50,7 @@
 @media all and (min-width: 1700px) {
     .main-header article {
         top: 50%;
+        height: 50%;
     }
 
     .main-header article h2 {

@@ -6,19 +6,17 @@
     position: fixed;
     background: rgba(0, 0, 0, 0.83) none repeat scroll 0 0;
     transition: all 0.35s ease 0s;
-    z-index: 5;
+    z-index: 10;
     height: 110px;
     width: 100%;
     align-items: center;
 }
 
 .nav-ul li a {
-    height: 100%;
     text-decoration: none;
     color: white;
     font-size: 20px;
     padding: 40px 25px;
-    transition: background .22s ease-in;
 }
 
 .nav-ul li a:hover {

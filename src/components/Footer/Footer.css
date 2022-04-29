@@ -116,7 +116,7 @@
     }
 
     .site-footer-right-article {
-        position: unset;
+        position: relative;
         margin-top: 50px;
     }
 
