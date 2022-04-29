@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-around;
     height: 120vh;
+    overflow: hidden;
 }
 
 @media all and (max-width: 820px) {
