@@ -32,6 +32,16 @@ Like the react-scroll library all that you need to do is import a single compone
 
 Great and simple way to make contact forms work without the need of backend solution. 
 
+### Features
+
+###### Fully responsive design from 320px width to 4k.
+
+###### Contact form
+
+###### Responsive animations
+
+###### One page architecture
+
 ## How to Install and Run the Project
 
 All you need to do is to write npm install and npm start in the console.
