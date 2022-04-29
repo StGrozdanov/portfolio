@@ -112,7 +112,7 @@
 
 @media all and (max-width: 620px) {
     .main-header article {
-        height: 52%;
+        height: 45%;
     }
 
     .main-header article h2 {
@@ -129,5 +129,11 @@
 
     .fa-angles-down {
         font-size: 30px;
+    }
+}
+
+@media all and (max-width: 399px) {
+    .main-header article {
+        height: 53%;
     }
 }
