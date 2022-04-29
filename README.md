@@ -4,7 +4,7 @@
 
 Personal portfolio and place where I can share my work with the world. My original intention was to apply the learned from the React course, which I am currently studying, by starting with simple operations and improving them overtime.
 
-###### Challenges i faced
+##### Challenges i faced
 
 I developed the so called `one page` application for a very first time. Beforehand i had experience with routing single page applications and multipage apps so i tried to implement the same principles in this one pager and they didn't work. It was research time ...
 
@@ -23,6 +23,12 @@ react-scroll
 The key to one pagers is scroll upon navigation button click / change navigation active button style upon reaching a section viewport. React-scroll makes it easy, no need for extra javascript code, no need for any tracking and event listeners at all. Wrapping nav links in a single component and giving props to it to adjust its behaviour is all that is needed. 
 
 react-animation-on-scroll
+
+Like the react-scroll library all that you need to do is import a single component and wrap the sections you want to animate with it giving it className of the animation as prop. It will handle the animation triggering upon reaching the section viewport for you. Simple as that.
+
+emailJS
+
+Great and simple way to make contact forms work without the need of backend solution. 
 
 
 
