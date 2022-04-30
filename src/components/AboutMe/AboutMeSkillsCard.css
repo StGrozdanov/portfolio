@@ -50,7 +50,7 @@
 }
 
 .skills-card-ul {
-    max-height: 250px;
+    max-height: 200px;
     overflow-y: auto;
     list-style: none;
     padding: 0;
@@ -119,7 +119,7 @@
 @media all and (min-width: 1700px) {
     .skills-card {
         width: 350px;
-        min-width: 300px;
+        min-width: 350px;
     }
 
     .skills-card-header {

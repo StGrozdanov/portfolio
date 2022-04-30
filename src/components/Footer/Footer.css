@@ -103,12 +103,15 @@
 
 @media all and (max-width: 770px) {
     .footer-title {
-        position: unset;
+        left: 5%;
+        top: 0%;
     }
 
     .site-footer-life-rules {
         line-height: 1.6;
         margin: 0;
+        position: absolute;
+        left: 55%;
     }
 
     .site-footer-left-article {
@@ -118,10 +121,21 @@
     .site-footer-right-article {
         position: relative;
         margin-top: 50px;
+        width: 100%;
     }
 
     .site-footer .social-links {
         margin: 0;
         padding: 0;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .footer-title {
+        left: 2%;
+    }
+
+    .site-footer-life-rules {
+        left: 42%;
     }
 }
