@@ -72,12 +72,35 @@
     .about-me-article-heading::after {
         height: 4.5px;
         width: 44%;
+        bottom: 78%;
     }
 
     .about-me-article-heading::before {
         height: 4.5px;
         width: 46%;
         left: 5%;
+        bottom: 78%;
+    }
+}
+
+@media all and (max-width: 1840px) and (min-width: 1500px) {
+    .about-me-article {
+        font-size: 20px;
+    }
+
+    .about-me-article-heading {
+        font-size: 25px;
+    }
+
+    .about-me-article-heading::after {
+        width: 44%;
+        bottom: 83.5%;
+    }
+
+    .about-me-article-heading::before {
+        width: 46%;
+        left: 6%;
+        bottom: 83.5%;
     }
 }
 
