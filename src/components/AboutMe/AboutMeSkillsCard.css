@@ -50,7 +50,7 @@
 }
 
 .skills-card-ul {
-    max-height: 215px;
+    max-height: 209px;
     overflow-y: auto;
     list-style: none;
     padding: 0;
@@ -117,34 +117,85 @@
 }
 
 @media all and (min-width: 1700px) {
+    .skills-card-body {
+        height: 500px;
+        font-size: 17px;
+    }
+
+    .skills-card-ul {
+        max-height: 330px;
+    }
+
+    .skills-card-footer::after {
+        top: 455px;
+    }
+}
+
+@media all and (min-width: 1800px) {
     .skills-card {
         width: 350px;
         min-width: 350px;
     }
 
     .skills-card-header {
-        font-size: 28px;
-        max-height: 250px;
+        font-size: 26px;
+        max-height: 240px;
     }
 
     .skills-card-body {
-        height: 800px;
-        font-size: 28px;
+        height: 490px;
+        font-size: 22px;
     }
 
     .skills-card-footer::after {
-        top: 757px;
+        top: 450px;
     }
 
     .skills-card-ul {
-        max-height: 550px;
+        max-height: 330px;
     }
 }
 
-@media all and (max-width: 1200px) {
+@media all and (min-width: 2400px) {
+    .skills-card {
+        width: 450px;
+        min-width: 450px;
+    }
+
+    .skills-card-header {
+        font-size: 28px;
+        max-height: 240px;
+    }
+
+    .skills-card-body {
+        height: 700px;
+        font-size: 25px;
+    }
+
+    .skills-card-footer::after {
+        top: 665px;
+    }
+
+    .skills-card-ul {
+        max-height: 490px;
+    }
+}
+
+@media all and (max-width: 1446px) {
     .skills-card {
         width: 220px;
         min-width: 220px;
+    }
+
+    .skills-card-footer::after {
+        height: 60px;
+        bottom: 0px;
+        right: 0px;
+        top: 303px;
+    }
+
+    .skills-card-ul {
+        max-height: 200px;
     }
 }
 
@@ -160,6 +211,7 @@
         width: 300px;
         min-width: 300px;
     }
+
     .skills-card-footer::after {
         top: 305px;
     }
@@ -170,6 +222,7 @@
         width: 200px;
         min-width: 200px;
     }
+
     .skills-card-footer::after {
         top: 305px;
     }
@@ -188,5 +241,9 @@
 
     .skills-card-header {
         max-height: 150px;
+    }
+
+    .skills-card-ul {
+        max-height: 208px;
     }
 }
