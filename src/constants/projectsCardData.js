@@ -5,7 +5,7 @@ export const cookBookProjectCard = {
     month: 'December',
     year: 2021,
     projectName: 'Recipe Book',
-    more: 'https://recepti-na-shushanite.web.app/'
+    more: 'https://recepti-na-shushanite.web.app/',
 }
 
 export const portfolioProjectCard = {
@@ -15,15 +15,15 @@ export const portfolioProjectCard = {
     month: 'April',
     year: 2022,
     projectName: 'Personal Portfolio',
-    more: 'https://st-grozdanov-portfolio.web.app'
+    more: 'https://st-grozdanov-portfolio.web.app',
 }
 
 export const mobileAppProjectCard = {
     cardNumber: 3,
     coverImage: 'assets/images/fitness-app.jpg',
-    day: 30,
-    month: 'April',
+    day: 2,
+    month: 'May',
     year: 2022,
     projectName: 'Mobile Fitness App',
-    more: null
+    more: 'https://forge-my-physique.web.app/',
 }
