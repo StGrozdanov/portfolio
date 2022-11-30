@@ -1,6 +1,6 @@
 import AboutMeSkillsCard from "./AboutMeSkillsCard";
 import './AboutMeSkills.css'
-import { projectsCard, experienceCard, softSkillsCard, hobbiesCard } from "../../constants/aboutMeCardsData";
+import { projectsCard, experienceCard, softSkillsCard, hobbiesCard } from "../../data/aboutMeCardsData";
 
 export default function AboutMeSkills() {
     return (

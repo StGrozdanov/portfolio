@@ -19,10 +19,10 @@ export default function AboutMeSkillsCard({
     return (
         <AnimationOnScroll animateIn={
             cardNumber > 2
-                    ? rotationRight + ' skills-card ' + 'animation-delay:' + animationDelay
-                    : rotationLeft + ' skills-card ' + 'animation-delay:' + animationDelay
-                    }
-            >
+                ? rotationRight + ' skills-card ' + 'animation-delay:' + animationDelay
+                : rotationLeft + ' skills-card ' + 'animation-delay:' + animationDelay
+        }
+        >
             <article>
                 <div className='skills-card-icon-container'>
                     <i className={icon}></i>
@@ -35,7 +35,20 @@ export default function AboutMeSkillsCard({
                 <main className='skills-card-body'>
                     <strong>{innerHeading}</strong>
                     <ul className='skills-card-ul'>
-                        {technologies.map(technology => <li key={uuid()}>{technology}</li>)}
+                        {
+                            cardNumber !== 2
+                                ?
+                                technologies.map(technology => <li key={uuid()}>{technology}</li>)
+                                :
+                                technologies.map(technology => {
+                                    return (
+                                        <span style={{margin: '0 5px 0 0'}} key={uuid()}>
+                                            <h5 style={{margin: '0 0 10px 0'}}>{technology.heading}</h5>
+                                            <div>{technology.technologies.map(skills => <li key={uuid()}>{skills}</li>)}</div>
+                                        </span>
+                                    )
+                                })
+                        }
                     </ul>
                     <div className={'skills-card-footer ' + cardColor}></div>
                 </main>

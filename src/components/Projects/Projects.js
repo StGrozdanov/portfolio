@@ -1,6 +1,6 @@
 import './Projects.css';
 import ProjectCard from "./ProjectCard";
-import { cookBookProjectCard, mobileAppProjectCard, portfolioProjectCard } from "../../constants/projectsCardData";
+import { cookBookProjectCard, mobileAppProjectCard, portfolioProjectCard } from "../../data/projectsCardData";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 export default function Projects() {

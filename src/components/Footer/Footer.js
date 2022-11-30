@@ -29,7 +29,7 @@ export default function Footer() {
                     </li>
                     <li className='email'>
                         <AnimationOnScroll animateIn='fadeInUp' delay={500}>
-                            <a href="mailto:st.grozdanov@abv.bg">
+                            <a href="mailto:st.grozdanov.developer@gmail.com">
                                 <i className="fa fa-envelope"></i>
                             </a>
                         </AnimationOnScroll>

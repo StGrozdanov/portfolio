@@ -1,5 +1,6 @@
 import './AboutMe.css'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+import { ABOUT_ME } from '../../data/aboutMeArticle';
 
 export default function AboutMe() {
     return (
@@ -7,13 +8,8 @@ export default function AboutMe() {
             <AnimationOnScroll animateIn='fadeInDown'>
                 <article className='about-me-article'>
                     <h2 className='about-me-article-heading'>About Me</h2>
-                    <p>I am a full-stack developer, mostly experienced in Spring and React</p>
-                    <p className='about-me-article-story'>
-                        For me building things from scratch is an enjoyment and bringing ideas to life is a lifestyle.
-                        In the past I tried many other career paths - from road construction engineering, to pursuing sports
-                        career. Yet again, after the start of COVID-19 pandemic, I found myself on a new path - a path in
-                        which my passion and my enjoyment are always the leading part of the process.
-                    </p>
+                    <p>{ABOUT_ME.intro}</p>
+                    <p className='about-me-article-story'>{ABOUT_ME.description}</p>
                 </article>
             </AnimationOnScroll>
             <AnimationOnScroll animateIn='fadeInRight about-me-animation-container'>

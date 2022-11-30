@@ -1,21 +1,16 @@
 import './ProjectCard.css';
-import MobileApp from './ProjectMobileApp';
-import Portfolio from './ProjectPortfolio';
-import RecipeBook from './ProjectRecipeBook';
-
-let description = [<RecipeBook />, <Portfolio />, <MobileApp />];
+import ProjectDescription from './ProjectDescription';
 
 function ProjectCard({
-    cardNumber,
     coverImage,
     day,
     month,
     year,
     projectName,
-    more
+    more,
+    description,
+    codeLink,
 }) {
-    let descriptionValue = cardNumber - 1;
-
     return (
             <article className='project-article'>
                 <div className="project-article-image-container">
@@ -28,7 +23,9 @@ function ProjectCard({
                 </header>
                 <main className="project-article-body">
                     <h3 className='project-article-body-heading'>{projectName}</h3>
-                    <span className='project-article-body-description'>{description[descriptionValue]}</span>
+                    <span className='project-article-body-description'>
+                        <ProjectDescription description={description} codeLink={codeLink} />
+                    </span>
                 </main>
                 <footer>
                     <a className='project-article-more-button' href={more} target="blank">MORE</a>

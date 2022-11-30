@@ -15,8 +15,8 @@ export const experienceCard = {
     cardColor: 'orangeCard',
     icon: 'fa fa-code',
     heading: 'GAINED EXPERIENCE',
-    innerHeading: 'SoftUni 09.2020-08.2022',
-    technologies: personalQualities.softuni,
+    innerHeading: 'Practical Experience',
+    technologies: personalQualities.experience,
     animationDelay: '2s',
 }
 
@@ -25,7 +25,7 @@ export const softSkillsCard = {
     cardColor: 'blueCard',
     icon: 'fa fa-users',
     heading: 'SOFT SKILLS',
-    innerHeading: 'Sports 2009-2020 and Work experience 2016-2022',
+    innerHeading: 'Sports and Work Experience',
     technologies: personalQualities.softSkills,
     animationDelay: '3s',
 }
