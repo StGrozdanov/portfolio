@@ -1,4 +1,4 @@
-export const cookBookProjectCard = {
+const cookBookProjectCard = {
     coverImage: 'assets/images/cooking.png',
     day: 12,
     month: 'December',
@@ -9,20 +9,20 @@ export const cookBookProjectCard = {
     codeLink: 'https://github.com/StGrozdanov/recepie-book',
 }
 
-export const portfolioProjectCard = {
-    coverImage: 'assets/images/portfolio.jpg',
-    day: 25,
-    month: 'April',
+const moviesProjectCard = {
+    coverImage: 'assets/images/movies.png',
+    day: 10,
+    month: 'August',
     year: 2022,
-    projectName: 'Personal Portfolio',
-    more: 'https://st-grozdanov-portfolio.web.app',
-    description: 'Personal portfolio and place where I can share my work with the world. My original intention was to apply the learned from the React course, which I am currently studying, by starting with simple operations and improving them overtime. You can find the github repository',
-    codeLink: 'https://github.com/StGrozdanov/portfolio',
+    projectName: 'Movies',
+    more: 'https://movies-mern-stack.web.app',
+    description: 'Movies catalogue website. Build with the MERN stack (MongoDB, ExpressJS, ReactJS, NodeJS). The idea was to practice the JS technologies and to use non-relational database - MongoDB for first time in a project. You can find the github repository.',
+    codeLink: 'https://github.com/StGrozdanov/movies',
 }
 
-export const mobileAppProjectCard = {
+const mobileAppProjectCard = {
     coverImage: 'assets/images/fitness-app.jpg',
-    day: 2,
+    day: '02',
     month: 'May',
     year: 2022,
     projectName: 'Mobile Fitness App',
@@ -30,3 +30,11 @@ export const mobileAppProjectCard = {
     description: 'Mobile fitness app with personal website made with React. The app itself is а project in development with main technology - React Native. Everyone can register in the website and start a demo to experience the main app functionalities. You can find the github repository',
     codeLink: 'https://github.com/StGrozdanov/Forge-My-Physique-Website',
 }
+
+const projectsData = {
+    cookBookProjectCard,
+    portfolioProjectCard: moviesProjectCard,
+    mobileAppProjectCard,
+}
+
+export default projectsData;
